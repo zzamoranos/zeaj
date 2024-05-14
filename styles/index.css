@@ -67,6 +67,17 @@ p {
     grid-template-columns: 45vw 55vw;
 }
 
+@media (max-width: 800px) {
+    .hero-right {
+        display: none;
+    }
+
+    .hero-text, .hero-exp {
+        width: 70vw;
+    }
+}
+
+
 .hero-left {
     margin-left: 7vw;
     margin-top: 7vw;
@@ -114,6 +125,20 @@ p {
     margin-top: 4vw;
 }
 
+@media (max-width: 1035px) {
+    .portfolio {
+        height: 275vh;
+    }
+
+    .portfolio-item {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-info-title, .portfolio-info-text {
+        width: 85vw!important;
+    }
+}
+
 .portfolio-title {
     margin: 0;
     margin-left: 7vw;
@@ -151,6 +176,26 @@ p {
     grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width: 1354px) {
+    .more {
+        height: 150vh;
+    }
+
+    .more-projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .more-projects-desc {
+        margin-bottom: 10vw;
+    }
+}
+
+@media (max-width: 650px) {
+    .more {
+        height: 120vh;
+    }
+}
+
 .more-image {
     border-radius: 1vw;
 }
@@ -176,4 +221,46 @@ p {
 
 .footer-link {
     padding-left: 1vw;
+}
+
+#burger-menu-btn, #burger-links {
+    display: none;
+}
+
+#burger-menu-btn {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#burger-links {
+    background-color: black;
+    text-align: center;
+}
+
+.burger-link {
+    display: block;
+    color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+
+@media (max-width: 968px) {
+    #burger-menu-btn {
+        display: inline;
+    }
+
+    .navbar-links, .navbar-right {
+        display: none;
+    }
+}
+
+@media (min-width: 968px) {
+    #burger-menu-btn {
+        display: none;
+    }
+
+    .navbar-links, .navbar-right {
+        display: flex;
+    }
 }
