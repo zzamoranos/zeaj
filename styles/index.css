@@ -235,6 +235,10 @@ p {
 #burger-links {
     background-color: black;
     text-align: center;
+    position: sticky;
+    top: 4vw;
+    z-index: 1;
+    width: 100vw;
 }
 
 .burger-link {
@@ -243,7 +247,6 @@ p {
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
-
 
 @media (max-width: 968px) {
     #burger-menu-btn {
