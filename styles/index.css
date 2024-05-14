@@ -61,7 +61,7 @@ p {
 }
 
 .hero {
-    background-image: url("/../assets/index/gradient-bg.png")!important;
+    background-image: url("../assets/index/gradient-bg.png");
     height: 93vh;
     display: grid;
     grid-template-columns: 45vw 55vw;
