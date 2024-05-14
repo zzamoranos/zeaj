@@ -127,7 +127,7 @@ p {
 
 @media (max-width: 1035px) {
     .portfolio {
-        height: 275vh;
+        height: 300vh;
     }
 
     .portfolio-item {
