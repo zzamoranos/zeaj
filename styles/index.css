@@ -259,11 +259,11 @@ p {
 }
 
 @media (min-width: 968px) {
-    #burger-menu-btn {
-        display: none;
+    #burger-menu-btn, #burger-links {
+        display: none!important;
     }
 
     .navbar-links, .navbar-right {
-        display: flex;
+        display: flex;  
     }
 }
