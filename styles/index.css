@@ -166,6 +166,10 @@ p {
     padding-top: 4vw;
 }
 
+.more a {
+    display: block;
+}
+
 .more-title {
     font-size: 45px;
     margin-bottom: 4vw;
