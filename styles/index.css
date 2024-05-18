@@ -26,6 +26,7 @@ a {
 
 .link-dark {
     color: black;
+    display: inline-block;
 }
 
 .link-dark:hover {
@@ -127,8 +128,8 @@ p {
 
 .portfolio-item {
     display: grid;
-    grid-template-columns: 40vw 60vw;
-    gap: 10vw;
+    grid-template-columns: 0.4fr 0.6fr;
+    gap: 25vw;
     margin-left: 7vw;
     margin-top: 4vw;
 }

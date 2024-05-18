@@ -22,6 +22,7 @@ body {
     font-family: "DM Sans";
     color: white;
     margin: 0;
+    background-color: #FCFCFC;
 }
 
 a {
@@ -212,6 +213,32 @@ p {
     border-radius: 1vw;
 }
 
+@media (min-height: 935px) {
+    .overview {
+        height: 60vh!important;
+    }
+
+    .final {
+        height: 420vh!important;
+    }
+
+    .market-research {
+        height: 50vh!important;
+    }
+
+    .uxr {
+        height: 35vh!important;
+    }
+
+    .streamlining {
+        height: 185vh!important;
+    }
+
+    .compare {
+        height: 180vh!important;
+    }
+}
+
 .final {
     background-color: #FCFCFC;
     height: 470vh;
@@ -349,4 +376,383 @@ p {
 .uxr-body {
     color: #666666;
     line-height: 28px;
+}
+
+.streamlining {
+    background-color: #FCFCFC;
+    height: 215vh;
+    color: black;
+    padding: 5vw 10vw;
+}
+
+.streamlining-title {
+    color: #FF7532;
+    font-family: RecoletaMed;
+    font-size: 40px;
+}
+
+.streamlining-body {
+    margin-top: 2vw;
+    line-height: 28px;
+}
+
+.streamlining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    gap: 2.5vw;
+}
+
+.flento-img {
+    border-radius: 0.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.streamlining-item {
+    text-align: center;
+    font-size: 22px;
+}
+
+.streamlining-infobox {
+    margin-top: 3.5vw;
+    padding: 1vw 2vw;
+    border-radius: 0.5vw;
+    background-color: #e7e7e7;
+}
+
+.streamlining-persona {
+    margin-top: 2vw;
+    padding: 4vw 4vw;
+    display: grid;
+    grid-template-columns: 0.35fr 0.65fr;
+    border: solid;
+    border-radius: 1vw;
+    border-color: #CFCFCF;
+    gap: 5vw;
+}
+
+
+.persona-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.persona-title {
+    font-size: 36px;
+}
+
+.persona-tag {
+    padding: 0.2vw 2vw;
+    border: solid;
+    border-radius: 2vw;
+}
+
+.persona-item {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    gap: 5vw;
+    margin-top: 1.25vw;
+}
+
+.persona-bullet {
+    line-height: 22px;
+    margin-bottom: 0.5vw;
+    color: #1A1B1F;
+}
+
+@media (max-height: 833px) {
+    .streamlining {
+        height: 225vh;
+    }
+}
+
+.questions {
+    background-color: #010101;
+    height: 65vh;
+    padding: 4vw 14vw;
+    color: #D9D9D9;
+}
+
+.questions-title {
+    font-family: RecoletaSB;
+    font-size: 26px;
+}
+
+.question {
+    font-size: 52px;
+    margin: 2vw 0 2vw 0
+}
+
+.question-white {
+    color: #FBFBFB;
+}
+
+@media (max-height: 833) {
+    .questions {
+        height: 85vh;
+    }
+}
+
+.insights {
+    background-color: #FCFCFC;
+    height: 100vh;
+    color: #1A1B1F;
+    padding: 8vw 10vw;
+}
+
+@media (max-height: 901px) {
+    .insights {
+        height: 135vh;
+    }
+}
+
+@media (max-width: 1256px) {
+    .insights {
+        height: 135vh;
+    }
+}
+
+.insights-info {
+    color: #808080;
+    margin-bottom: 1.5vw;
+}
+
+.insights-title {
+    max-width: 65%;
+    color: #FF5B0C;
+    font-size: 56px;
+    font-family: RecoletaMed;
+    margin-bottom: 2.5vw;
+}
+
+.insights-note {
+    margin-bottom: 2vw;
+    background-color: #F0F0F0;
+    padding: 1vw 1vw;
+    border-radius: 0.5vw;
+    line-height: 22px;
+}
+
+.insights-grid {
+    margin-top: 3.5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+}
+
+.insights-item {
+    background-color: #F0F0F0;
+    border-radius: 1vw;
+    padding: 1.5vw 3vw;
+    line-height: 28px;
+}
+
+.insights-item-title {
+    font-size: 22px;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.insights-summary {
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: 0.25fr 0.75fr;
+    gap: 10vw;
+}
+
+.summary-title {
+    font-size: 48px;
+}
+
+.summary-text {
+    margin-left: 10vw;
+    line-height: 28px;
+}
+
+.empathy {
+    padding: 5vw 15vw;
+    height: 70vh;
+    background-image: url("../assets/flento/flento-bg-2.png");
+    background-repeat: no-repeat;
+}
+
+.empathy-header, .empathy-title, .empathy-text {
+    text-align: center;
+}
+
+.empathy-header {
+    font-family: RecoletaMed;
+    font-size: 26px;
+    color: #D9D9D9;
+    margin-bottom: 2vw;
+}
+
+.empathy-title {
+    font-size: 52px;
+    color: #DADADA;
+}
+
+.empathy-text {
+    margin: 2vw 3vw;
+    text-align: center;
+}
+
+.empathy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+}
+
+.empathy-item {
+    background-color: rgba(28, 20, 20, 0.6);
+    border: solid;
+    border-color: #7C7C7C;
+    border-width: 2.5px;
+    border-radius: 1vw;
+    padding: 2vw 2vw;
+}
+
+.empathy-num {
+    color: #CFCFCF;
+    margin-bottom: 1vw;
+}
+
+.empathy-body {
+    color: #DADADA;
+    margin-top: 1vw;
+}
+
+.empathy-subheader {
+    font-size: 22px;
+}
+
+.goal {
+    padding: 4vw 12vw;
+    height: 40vh;
+    background-color: #FCFCFC;
+    color: #707485;
+}
+
+.goal-title {
+    margin-bottom: 2vw;
+    font-family: Recoleta;
+    font-size: 36px;
+    color: black;
+}
+
+.goal-text {
+    font-size: 44px;
+    font-weight: 300;
+}
+
+.goal-gray {
+    color: rgb(106, 106, 106);
+}
+
+.goal-black {
+    color: black;
+}
+
+.goal-orange {
+    color: #FF5B0C;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.compare {
+    height: 200vh;
+    color: black;
+    padding: 7vw 18vw 0 12vw;
+}
+
+.compare-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.compare-title {
+    margin-bottom: 1vw;
+    font-family: RecoletaMed;
+    font-size: 64px;
+}
+
+.compare-subheader {
+    font-size: 36px;
+}
+
+.compare-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15vw;
+    margin-top: 2vw;
+}
+
+.compare-grid-1-item {
+    background-color: #F0F0F0;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+.compare-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+
+.compare-more {
+    border: solid;
+    border-color: #E8E8E8;
+    border-radius: 1vw;
+    padding: 2vw 4vw;
+}
+
+.compare-more-title {
+    font-family: RecoletaMed;
+    font-size: 64px;
+    margin-bottom: 1vw;
+}
+
+.compare-more-body, .compare-more-body a {
+    font-size: 26px;
+    color: #303030;
+}
+
+.compare-more-linkedin {
+    margin-top: 2vw;
+    display: inline-block;
+    padding: 1vw 4vw;
+    border: solid;
+    border-color: #E8E8E8;
+    border-radius: 2vw;
+    color: black;
+    font-size: 22px;
+}
+
+.footer {
+    background-image: url("../assets/index/footer-background.png");
+    background-size: cover;
+    height: 50vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 20vh;
+}
+
+.footer-link {
+    padding-left: 1vw;
+}
+
+.footer-header {
+    margin-top: 4vw;
 }
