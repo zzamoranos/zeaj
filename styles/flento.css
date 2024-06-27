@@ -217,7 +217,7 @@ html {
     border-radius: 1vw;
 }
 
-@media (min-height: 935px) {
+@media (min-height: 900px) {
     .overview {
         height: 60vh!important;
     }
@@ -235,11 +235,36 @@ html {
     }
 
     .streamlining {
-        height: 185vh!important;
+        height: 200vh!important;
     }
 
     .compare {
         height: 180vh!important;
+    }
+
+    .questions {
+        height: 100vh!important;
+    }
+}
+
+@media (max-height: 720px) {
+    .market-research {
+        height: 90vh!important;
+    }
+    .process {
+        height: 125vh!important;
+    }
+    .streamlining {
+        height: 260vh!important;
+    }
+    .questions {
+        height: 100vh!important;
+    }
+    .insights {
+        height: 160vh!important;
+    }
+    .empathy {
+        height: 100vh!important;
     }
 }
 
@@ -384,7 +409,7 @@ html {
 
 .streamlining {
     background-color: #FCFCFC;
-    height: 215vh;
+    height: 225vh;
     color: black;
     padding: 5vw 10vw;
 }
@@ -474,7 +499,7 @@ html {
 
 .questions {
     background-color: #010101;
-    height: 65vh;
+    height: 80vh;
     padding: 4vw 14vw;
     color: #D9D9D9;
 }
