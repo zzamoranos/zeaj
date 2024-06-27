@@ -44,6 +44,10 @@ p {
     height: auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     display: flex;
     align-items: center;
