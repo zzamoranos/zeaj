@@ -21,6 +21,7 @@
             category="INTERNSHIP // UX RESEARCH, EXPERIENCE DESIGN"
             image="./img/home/flento.png"
             gradient="bg-gradient-to-r from-orange-500 to-slate-950 bg-clip-text text-transparent"
+            url="https://storage.googleapis.com/zeaj-website-static/zeaj-flento-case-study.pdf"
         />
         <PortfolioItem
             title="Personalizing cooking experiences through smart recipe discovery"
@@ -29,6 +30,7 @@
             category="GBDA210 PROJECT // PRODUCT DESIGN * UX RESEARCH * VISUAL IDENTITY"
             image="./img/home/musicalmoon.png"
             gradient="bg-gradient-to-r from-slate-950 to-orange-500 bg-clip-text text-transparent"
+            url="https://storage.googleapis.com/zeaj-website-static/zeaj-remy-case-study.pdf"
         />
         <PortfolioItem
             title="Rethinking remote work for healthier, happier workers"
