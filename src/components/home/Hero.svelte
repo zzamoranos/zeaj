@@ -1,5 +1,5 @@
 <div class="min-h-[calc(100vh-4rem)] bg-[url('/bg/gradient-purple.png')]">
-    <div class="grid grid-cols-1 lg:grid-cols-[60%_40%]">
+    <div class="grid grid-cols-1 lg:grid-cols-[70%_30%]">
         <div class="px-12 py-20 lg:px-36 lg:py-40">
             <h3 class="block text-6xl text-slate-100 font-bold lg:text-8xl">Zeaj Zamoranos</h3>
             <p class="py-8 text-slate-100 text-2xl w-full max-w-full"> 
