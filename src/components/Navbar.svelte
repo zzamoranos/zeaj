@@ -22,7 +22,7 @@
     <div class="flex items-center justify-between">
         <a class="hover:underline" href>zmra</a>
         <div class="hidden lg:inline text-lg">
-            <a class="px-4 hover:underline" href>RESUME</a>
+            <a class="px-4 hover:underline" href="https://storage.googleapis.com/zeaj-website-static/zamoranos-resume-winter%202025.pdf" target="_blank">RESUME</a>
             <a class="px-4 hover:underline" href>ABOUT ME</a>
         </div>
         <span class="hidden lg:inline text-lg">(pronounced zéy-uh)</span>
@@ -33,7 +33,7 @@
 <!--Dropdown content-->
 {#if showDropdown}
     <div class="w-full bg-black text-white py-2 px-4 text-center fixed z-10">
-        <a class="block py-2" href>RESUME</a>
+        <a class="block py-2" href="https://storage.googleapis.com/zeaj-website-static/zamoranos-resume-winter%202025.pdf" target="_blank">RESUME</a>
         <a class="block py-2" href>ABOUT ME</a>
     </div>
 {/if}
