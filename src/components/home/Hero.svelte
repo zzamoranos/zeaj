@@ -3,8 +3,7 @@
         <div class="px-12 py-20 lg:px-36 lg:py-40">
             <h3 class="block text-6xl text-slate-100 font-bold lg:text-8xl">Zeaj Zamoranos</h3>
             <p class="py-8 text-slate-100 text-2xl w-full max-w-full"> 
-                is a third year GBDA student who loves matcha lattes, charcoal sketching from life; 
-                with over a year of experience in marketing, design, and communications.
+                is a third year GBDA student who loves matcha lattes, and charcoal sketching from life.
             </p>
             <p class="py-4 text-slate-300 text-2xl">
                 Prev @Flento, @Voiceflip, @Deaf Culture Centre
