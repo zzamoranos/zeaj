@@ -22,7 +22,7 @@
         <a class="hover:underline" href>zmra</a>
         <div class="hidden lg:inline text-lg">
             <a class="px-4 hover:underline" href="https://storage.googleapis.com/zeaj-website-static/zamoranos-resume-winter%202025.pdf" target="_blank">RESUME</a>
-            <a class="px-4 hover:underline" href="/about">ABOUT ME</a>
+            <a class="px-4 hover:underline" href="/zeaj/about">ABOUT ME</a>
         </div>
         <span class="hidden lg:inline text-lg">(pronounced zéy-uh)</span>
         <button class="lg:hidden" on:click={toggleDropdown}>☰</button>
