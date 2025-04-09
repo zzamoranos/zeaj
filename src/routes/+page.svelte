@@ -49,12 +49,12 @@
             <ProjectItem
                 image="./img/home/project1.png"
                 caption="MEDIUM ARTICLE · ACCESSIBILITY & DIVERSITY IN UX"
-                link="https://google.com"
+                link="https://uwux.medium.com/breaking-barriers-how-to-design-accessibly-e284c9b49708"
             />
             <ProjectItem
                 image="./img/home/project2.png"
                 caption="MEDIUM ARTICLE · HEURISTIC EVALUATION ON FIGMA"
-                link="https://google.com"
+                link="https://uwux.medium.com/how-figma-applies-nielsens-10-usability-heuristics-30cf376cb727"
             />
         </div>
     </div>
