@@ -19,7 +19,7 @@
 
 <div class="py-4 px-16 bg-black text-white text-2xl sticky top-0">
     <div class="flex items-center justify-between">
-        <a class="hover:underline" href="/">zmra</a>
+        <a class="hover:underline" href="/zeaj">zmra</a>
         <div class="hidden lg:inline text-lg">
             <a class="px-4 hover:underline" href="https://storage.googleapis.com/zeaj-website-static/zamoranos-resume-winter%202025.pdf" target="_blank">RESUME</a>
             <a class="px-4 hover:underline" href="/zeaj/about">ABOUT ME</a>
