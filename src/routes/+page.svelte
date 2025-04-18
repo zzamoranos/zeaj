@@ -39,6 +39,7 @@
             category="DESIGNATHON // PRODUCT DESIGN * UX RESEARCH * VISUAL IDENTITY"
             image="./img/home/cooking.png"
             gradient="bg-gradient-to-r from-slate-950 to-green-600 bg-clip-text text-transparent"
+            url="https://www.figma.com/design/HJFrHM4WXJ41tP3S15bJOV/Remo---Designathon-Pitch?node-id=0-1&t=JfIcjCrHf5WxiYVj-1"
         />
     </div>
 
